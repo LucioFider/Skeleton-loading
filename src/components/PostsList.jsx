@@ -9,9 +9,10 @@ import {
   getUserById,
   usersUrlEndpoint as usersCacheKey,
 } from "../api/usersApi";
+import SkeletonPost from "../skeletons/SkeletonPost";
 
 import Post from "./Post";
-import SkeletonPost from "./skeletons/SkeletonPost";
+// import SkeletonPost from "./skeletons/SkeletonPost";
 
 const PostsList = ({ currentUserId }) => {
   const {
